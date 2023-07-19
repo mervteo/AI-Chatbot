@@ -324,20 +324,19 @@
 
 
 <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
- 
 <script>
-    window.botpressWebChat.init({
-        "botId": "539dd4de-aaa1-4a46-9218-95f32b2a1e3f",
-        "hostUrl": "https://cdn.botpress.dev/webchat/v0",
-        "messagingUrl": "https://messaging.botpress.dev",
-        "clientId": "539de4de-aea1-4a46-9218-95f32b2a1e3f",
-        "botName": "Great Consultant Chatbot"
-        "containerWidth": "200%25",
-        "layoutWidth": "200%25",
-        "hideWidget": true,
-        "disableAnimations": true,
-    });
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Great Consultant Chatbot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "43b82199-b143-49fe-8915-0c90e478ae28",
+      "botName": "Great Consultant Chatbot",
+      "avatarUrl": "https://mervteo.github.io/chatbot/Screenshot%202023-07-19%20175529.png",
+      "stylesheet": "https://mervteo.github.io/chatbot/Chatbot.css",
+      "useSessionStorage": true,
+      "showPoweredBy": true
  
     // Opens up the Chatbot by default
     // This lets users start chatting with the Chatbot without needing to click any buttons or menus.
@@ -346,7 +345,7 @@
             window.botpressWebChat.sendEvent({ type: "show" });
         },
         ["LIFECYCLE.LOADED"]
-    );
+  });
 </script>
  
 
