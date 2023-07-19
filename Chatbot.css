@@ -199,10 +199,10 @@ body {
     position: relative; /* Set the position to relative */
     outline: none; /* Remove any outline */
     border: none; /* Remove any border */
-  }
+}
    
   /* Style for the composer inner section */
-  .bpw-composer-inner {
+.bpw-composer-inner {
     padding: 0; /* Remove any padding */
     line-height: 0; /* Remove any line-height */
     position: relative; /* Set the position to relative */
@@ -213,12 +213,12 @@ body {
     display: flex;
    
     justify-content: space-between; /* Align items to the start and end of the container */
-  }
+}
    
   /* Style for the composer textarea */
-  .bpw-composer-textarea {
+.bpw-composer-textarea {
     flex-grow: 2; /* Allow the textarea to grow to fill the available space */
-  }
+}
    
   /* Styles for the textarea element in the composer */
   .bpw-composer textarea {
@@ -330,5 +330,32 @@ body {
     align-items: center; /* Center the voice recorder's content vertically */
   }
 
+
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
+ 
+<script>
+    window.botpressWebChat.init({
+        "botId": "539dd4de-aaa1-4a46-9218-95f32b2a1e3f",
+        "hostUrl": "https://cdn.botpress.dev/webchat/v0",
+        "messagingUrl": "https://messaging.botpress.dev",
+        "clientId": "539de4de-aea1-4a46-9218-95f32b2a1e3f",
+        "botName": "Great Consultant Chatbot"
+        "containerWidth": "100%25",
+        "layoutWidth": "100%25",
+        "hideWidget": true,
+        "disableAnimations": true,
+    });
+ 
+    // Opens up the Chatbot by default
+    // This lets users start chatting with the Chatbot without needing to click any buttons or menus.
+    window.botpressWebChat.onEvent(
+        function () {
+            window.botpressWebChat.sendEvent({ type: "show" });
+        },
+        ["LIFECYCLE.LOADED"]
+    );
+</script>
+ 
 
   
