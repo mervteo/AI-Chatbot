@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    bpw-layout {
-      height: 100%;
-      position: fixed;
-      border: 50cm;
-      border-radius: 100px;
-      z-index: 1;
-    }
-  </style>
+  <link rel="stylesheet" href="https://mervteo.github.io/Chatbot/Chatbot.css">
+  <!-- Add the Botpress WebChat JavaScript file -->
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
+  <!-- Your chatbot container and other content -->
 </head>
 
 <body>
-  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
+<!-- Initialize the Botpress WebChat with the required parameters -->
   <script>
     window.botpressWebChat.init({
-      "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
-      "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
-      "messagingUrl": "https://messaging.botpress.cloud",
-      "clientId": "43b82199-b143-49fe-8915-0c90e478ae28",
-      "botName": "Great Consultant Chatbot",
-      "avatarUrl": "https://mervteo.github.io/chatbot/Screenshot 2023-07-19 175529.png",
-      "useSessionStorage": true,
-      "showPoweredBy": true
-      "containerWidth": "100%",
-      "layoutWidth": "100%",
-      "hideWidget": true,
-      "disableAnimations": true,
+        "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
+        "clientId": "43b82199-b143-49fe-8915-0c90e478ae28",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "botName": "Great Consultant Chatbot",
+        "containerWidth": "100%",
+        "layoutWidth": "100%",
+        "hideWidget": true,
+        "disableAnimations": true,
     });
 
     // Opens up the Chatbot by default
