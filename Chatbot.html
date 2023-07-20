@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="https://mervteo.github.io/Chatbot/Chatbot.css">
-  <!-- Add the Botpress WebChat JavaScript file -->
+<body>
   <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
   <script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
-  <!-- Your chatbot container and other content -->
-</head>
-
-<body>
-<!-- Initialize the Botpress WebChat with the required parameters -->
-  <script>
-    window.botpressWebChat.init({
-        "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
-        "clientId": "43b82199-b143-49fe-8915-0c90e478ae28",
-        "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
-        "messagingUrl": "https://messaging.botpress.cloud",
-        "botName": "Great Consultant Chatbot",
-        "containerWidth": "100%",
-        "layoutWidth": "100%",
-        "hideWidget": true,
-        "disableAnimations": true,
-    });
-
-    // Opens up the Chatbot by default
-    window.botpressWebChat.onEvent(
-        function () {
-            window.botpressWebChat.sendEvent({ type: "show" });
-        },
-        ["LIFECYCLE.LOADED"]
-    );
-  </script>
 </body>
 </html>
