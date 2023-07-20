@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="https://mervteo.github.io/Chatbot/Chatbot.css">
-  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
+  <style>
+    bpw-layout {
+      height: 100%;
+      position: fixed;
+      border: 50cm;
+      border-radius: 100px;
+      z-index: 1;
+    }
+  </style>
 </head>
 
 <body>
   <div> id="webchat-container" </div>
-<!-- Initialize the Botpress WebChat with the required parameters -->
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/config.js" defer></script>
   <script>
     window.botpressWebChat.init({
       "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
