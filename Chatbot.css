@@ -76,7 +76,6 @@ direction: ltr;
   }
   .bpw-header-container {
     color: #ffffff;
-    border-bottom: 3px solid #000000;
   }
 
   #input-message::placeholder {
