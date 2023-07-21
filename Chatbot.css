@@ -1,5 +1,5 @@
 html {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 p, .bpw-from-bot > div, #input-message {
@@ -21,9 +21,9 @@ direction: ltr;
   }
   
   .bpw-header-container {
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 10px;
     background: #ffffff;
-    border-radius: 0px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
