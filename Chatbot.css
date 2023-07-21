@@ -21,11 +21,9 @@ direction: ltr;
   }
   
   .bpw-header-container {
-    padding: 20px;
     width: 100%;
-    position: fixed;
-    top: 20;
-    left: 0;
+    height: 10%;
+    position: flex;
     background: #ffffff;
     border-radius: 0px;
     position: relative;
