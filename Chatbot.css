@@ -123,7 +123,7 @@ direction: ltr;
 
   .bpw-composer {
     background-color: #ffffff;
-    border-top: 1px solid #ffffff;
+    border-top: 5px solid #ffffff;
   }
 
   .bpw-chat-container::-webkit-scrollbar {
