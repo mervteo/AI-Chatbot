@@ -210,7 +210,7 @@ direction: ltr;
   .bpw-send-button:disabled,
   .bpw-send-button:disabled:hover {
     opacity: 1.0;
-    background-color: var(--black);
+    background-color: var(--theme-primary);
     cursor: default;
   }
 
@@ -225,11 +225,11 @@ direction: ltr;
     justify-content: center;
     align-items: center;
     border-radius: var(--spacing-medium);
-    background-color: var(--black);
+    background-color: var(--theme-primary);
     padding: 20px;
     width: 28px;
     height: 28px;
-    color: white;
+    color: transparent;
     cursor: pointer;
     background-image: url('https://mervteo.github.io/Chatbot/Send_Icon_039jcs.png') !important;
     background-repeat: no-repeat !important;
