@@ -68,7 +68,10 @@ direction: ltr;
     }
 }
 
-  .bpw-header-icon,
+  .bpw-header-icon {
+    left: 20px;
+  }
+
   .bpw-header-icon svg,
   .bpw-header-icon svg path {
     fill: #000000 !important;
