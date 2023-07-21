@@ -108,7 +108,7 @@ direction: ltr;
 
 
   .bpw-chat-container {
-    background-color: #ffffff;
+    background-color: #c5c6d6;
   }
 
   .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
@@ -122,8 +122,8 @@ direction: ltr;
   }
 
   .bpw-composer {
-    background-color: #ffffff;
-    border-top: 5px solid #fffefa;
+    background-color: #c5c6d6;
+    border-top: 1px solid #fffefa;
   }
 
   .bpw-chat-container::-webkit-scrollbar {
