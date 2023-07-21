@@ -21,16 +21,15 @@ direction: ltr;
   }
 
   .bpw-header-icon {
-    width: 20px;
-    height: 20px;
+    width: 20cm;
+    height: 20cm;
   }
   
   .bpw-header-container {
-    margin: 0px 00px 0px 0px;
-    wdith: 100%;
-    height: 6%;
+    margin: 0px 0px 0px 0px;
     background: #ffffff;
     border-radius: 0px;
+    width: 100cm;
     position: relative;
     overflow: hidden;
 }
