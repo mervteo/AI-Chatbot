@@ -19,17 +19,12 @@ direction: ltr;
     background-color: #fffefa;
     color: #000000;
   }
-
-  .bpw-header-icon {
-    width: 20cm;
-    height: 20cm;
-  }
   
   .bpw-header-container {
     margin: 0px 0px 0px 0px;
     background: #ffffff;
     border-radius: 0px;
-    width: 50cm;
+    width: 20cm;
     position: relative;
     overflow: hidden;
 }
