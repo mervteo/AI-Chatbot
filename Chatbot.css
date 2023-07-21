@@ -27,6 +27,7 @@ direction: ltr;
     border-radius: 0px;
     position: relative;
     overflow: hidden;
+    border-bottom: 3px solid #000000;
 }
 
 .bpw-typing-bubble{
