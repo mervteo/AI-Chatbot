@@ -121,8 +121,8 @@ direction: ltr;
   }
 
   .bpw-composer {
-    background-color: #c5c6d6;
-    border-top: 1px solid #fffefa;
+    background-color: #ffffff;
+    border-top: 3px solid #000000;
   }
 
   .bpw-chat-container::-webkit-scrollbar {
