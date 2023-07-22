@@ -69,7 +69,7 @@ direction: ltr;
 
   .bpw-header-icon {
     border: none;
-    margin-left: var(--20px);
+    margin-left: 20px;
   }
   .bpw-header-icon svg,
   .bpw-header-icon svg path {
