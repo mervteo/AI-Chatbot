@@ -25,6 +25,7 @@ direction: ltr;
     height: 10%;
     background: #ffffff;
     border-radius: 0px;
+    border: 10px solid #000000;
     position: relative;
     overflow: hidden;
 }
