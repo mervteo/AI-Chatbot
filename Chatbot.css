@@ -210,7 +210,7 @@ direction: ltr;
   .bpw-send-button:disabled,
   .bpw-send-button:disabled:hover {
     opacity: 0.4;
-    background-color: var(--theme-primary);
+    background-color: var(--black);
     cursor: default;
   }
 
