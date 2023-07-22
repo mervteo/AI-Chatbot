@@ -25,7 +25,6 @@ direction: ltr;
     height: 10%;
     background: #ffffff;
     border-radius: 0px;
-    border: 10px solid #000000;
     position: relative;
     overflow: hidden;
 }
@@ -36,11 +35,11 @@ direction: ltr;
 
   .bpw-chat-bubble-content {
     background-color: #fffefa;
-    border-radius: 0px;
-    border: 1px transparent;
+    border-radius: 5px;
+    border:5px transparent;
   }
   .bpw-header-container {
-    border: 1px;
+    border: 5px solid #000000;
     border-radius: 0px;
   }
   .bpw-date-container,
