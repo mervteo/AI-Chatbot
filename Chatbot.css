@@ -25,11 +25,10 @@ p,
 .bpw-header-container {
   margin: 10px;
   background: #fff7f7;
-  border-radius: 50px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
   border: 1px;
-  border-radius: 0px;
   color: #fff7f7;
 }
 
@@ -54,10 +53,10 @@ p,
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
-  width: 660px !important;
+  width: 560px !important;
   height: 99vh;
   border-radius: 0px;
-  right: 40%;
+  right: 50%;
   bottom: 0%;
   border: 1px;
 }
