@@ -209,9 +209,10 @@ direction: ltr;
 
   .bpw-send-button:disabled,
   .bpw-send-button:disabled:hover {
-    opacity: 0.4;
+    opacity: 0.8;
     background-color: var(--theme-primary);
     cursor: default;
+    z-index: 1;
   }
 
   .bpw-send-buttons {
@@ -235,6 +236,7 @@ direction: ltr;
     background-repeat: no-repeat !important;
     background-position: center !important;
     transition: background-color 0.2s;
+    z-index: 1;
   }
 
   .bpw-send-button:not(:disabled):hover {
