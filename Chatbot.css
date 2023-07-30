@@ -56,7 +56,7 @@ p,
 .bpw-layout {
   width: 460px !important;
   height: 99vh;
-  border-radius: 0px;
+  border-radius: 50px;
   right: 0%;
   bottom: 0%;
   border: 1px;
