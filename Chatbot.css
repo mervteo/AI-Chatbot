@@ -45,7 +45,9 @@ p,
 }
 
 /* Styling for the date container, header name, and header subtitle */
-.bpw-date-container,
+.bpw-date-container {
+  time-format: "HH:mm";
+}
 .bpw-header-name,
 .bpw-header-subtitle {
   color: #000000;
