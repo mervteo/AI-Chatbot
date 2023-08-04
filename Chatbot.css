@@ -51,6 +51,11 @@ p,
   color: #000000;
 }
 
+.bpwc-message-timestamp {
+  time-format: "HH:mm";
+  /* Other CSS properties here */
+}
+
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
   width: 1535px !important;
