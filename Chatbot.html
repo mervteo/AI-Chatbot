@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script src="https://mediafiles.botpress.cloud/43b82199-b143-49fe-8915-0c90e478ae28/webchat/bot.html" defer></script>
+<script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+
+<body>
+    <script>
+      window.botpressWebChat.init({
+        "botId": "43b82199-b143-49fe-8915-0c90e478ae28",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "43b82199-b143-49fe-8915-0c90e478ae28",
+        "botName": "The Great Chatbot",
+        "botConversationDescription": "I'm here to help you solve questions related to The Great Wall of China",
+        "avatarUrl": "https://mervteo.github.io/Chatbot/Screenshot%202023-07-19%20175529.png",
+
+        // Set the width of the WebChat container and layout to 100% (Full Screen)
+        "containerWidth": "100%25",
+        "layoutWidth": "100%25",    
+
+        // Hide the widget and disable animations
+        "hideWidget": true,
+        "disableAnimations": false,  
+        "showCloseButton": false, 
+        "enableTranscriptDownload": false,
+        "enableConversationDeletion": true,
+        "useSessionStorage": true,
+        "stylesheet": "https://mervteo.github.io/Chatbot/Chatbot.css",
+    });
+    
+ 
+    // Opens up the Chatbot by default
+    // This lets users start chatting with the Chatbot without needing to click any buttons or menus.
+    window.botpressWebChat.onEvent(
+        function () {
+            window.botpressWebChat.sendEvent({ type: "show" });
+        },
+        ["LIFECYCLE.LOADED"]
+    );
+</script>
+</body>
+</html>
